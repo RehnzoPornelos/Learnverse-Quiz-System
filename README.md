@@ -57,8 +57,6 @@ See fully-voiced demonstration here -> https://youtu.be/yRveX1HP7CI
 - Vite
 - Tailwind CSS
 - Shadcn/UI
-- React Router
-- TanStack Query
 - Recharts & Plotly.js
 - Socket.IO
 
@@ -79,7 +77,6 @@ See fully-voiced demonstration here -> https://youtu.be/yRveX1HP7CI
 ### AI & Document Processing
 - Groq API
 - Llama Models
-- DeepSeek-R1
 - PyMuPDF
 - python-docx
 - python-pptx
@@ -90,26 +87,6 @@ See fully-voiced demonstration here -> https://youtu.be/yRveX1HP7CI
 - npm
 - Bun
 
-
----
-
-
-## 🏗️ System Architecture
-
-Frontend (React + TypeScript)
-        │
-        ▼
-Backend API (FastAPI)
-        │
-        ├── Groq API
-        │      └── AI Quiz Generation
-        │
-        └── Supabase
-               ├── PostgreSQL Database
-               ├── Authentication
-               ├── Storage
-               └── Realtime Services
-               
 
 ---
 

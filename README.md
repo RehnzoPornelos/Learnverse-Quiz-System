@@ -112,5 +112,3 @@ This project was developed for academic and educational purposes.
 Copyright © 2025
 Pornelos, Rehnzo P. & Valerio, Mark Francis
 Universidad de Manila
-
-**Copyright © [2025] [Pornelos, Rehnzo P. | Valerio, Mark Francis @ Universidad de Manila]. All rights reserved.**

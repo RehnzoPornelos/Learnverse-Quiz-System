@@ -3,7 +3,7 @@
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Made With](https://img.shields.io/badge/made%20with-💡%20AI-orange.svg)]()
 
-**Learnverse** is a web-based quiz platform for professors to automatically generate quizzes from e-learning materials, administer them to students to take quizzes with, and analyze student performance with actionable recommendations.
+**Learnverse** is a web-based quiz platform that enables professors to automatically generate quizzes from e-learning materials, administer assessments to students, and analyze performance through actionable insights and recommendations.
 
 
 ---
@@ -11,14 +11,105 @@
 
 ## ✨ Features
 
-The system's main purpose is to make a web-based quiz application that can be used by the  professor and be shared with their students.
-
 The system's main functions includes:
 * automatic quiz creation through e-learning material (supports question types such as Multiple Choice, True/False, Identification, Short Answer and Essay)
 * student performance analytics for each sections that the professor handles with detailed insights
 * provides recommendations of what to do based on the results of student progress
 * quiz taking can automatically detect tabs or window leaving, preventing cheating
 
+
+---
+
+
+## VIDEO DEMONSTRATION
+
+### 1. Quiz Creation
+![Quiz Creation Demo](img/QuizCreation.gif)
+
+### 2. Quiz Taking
+![Quiz Taking Demo](img/QuizTaking.gif)
+
+See fully-voiced demonstration here -> https://youtu.be/yRveX1HP7CI
+
+
+---
+
+
+## 🎯 Project Highlights
+
+- Full-stack web application built with React, FastAPI, and PostgreSQL
+- AI-powered quiz generation from uploaded learning materials
+- Supports PDF, Word, and PowerPoint document processing
+- Real-time quiz monitoring using Socket.IO
+- Automated student performance analytics and recommendations
+- Anti-cheating detection through tab and window focus monitoring
+- Role-based authentication for professors and students
+
+
+---
+
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Shadcn/UI
+- React Router
+- TanStack Query
+- Recharts & Plotly.js
+- Socket.IO
+
+### Backend
+- FastAPI
+- Python
+- Socket.IO
+- Uvicorn
+
+### Database & Cloud Services
+- PostgreSQL
+- Supabase
+  - Authentication
+  - Storage
+  - Realtime API
+  - Edge Functions
+
+### AI & Document Processing
+- Groq API
+- Llama Models
+- DeepSeek-R1
+- PyMuPDF
+- python-docx
+- python-pptx
+
+### Development Tools
+- Git & GitHub
+- ESLint
+- npm
+- Bun
+
+
+---
+
+
+## 🏗️ System Architecture
+
+Frontend (React + TypeScript)
+        │
+        ▼
+Backend API (FastAPI)
+        │
+        ├── Groq API
+        │      └── AI Quiz Generation
+        │
+        └── Supabase
+               ├── PostgreSQL Database
+               ├── Authentication
+               ├── Storage
+               └── Realtime Services
+               
 
 ---
 
@@ -37,12 +128,12 @@ The system's main functions includes:
 ---
 
 
-## 📚 Copyright & Fair Use Disclaimer
+## 📄 License
 
-This project may include third-party copyrighted material used for educational or research purposes.
+This project was developed for academic and educational purposes.
 
-Under Section 107 of the U.S. Copyright Act (1976), "fair use" permits limited use of copyrighted materials for purposes such as teaching, scholarship, and research. Non-profit and educational uses weigh in favor of fair use, but fair use determinations are fact-specific.
-
-All rights to third-party materials belong to their respective owners. This project does not claim ownership of such content.
+Copyright © 2025
+Pornelos, Rehnzo P. & Valerio, Mark Francis
+Universidad de Manila
 
 **Copyright © [2025] [Pornelos, Rehnzo P. | Valerio, Mark Francis @ Universidad de Manila]. All rights reserved.**
